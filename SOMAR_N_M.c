@@ -27,20 +27,20 @@ int fat(int n){
 		int n, resultado;
 		
 		
-		printf("\n Digite um número inteiro: ");
+		printf("\n Digite um nÃºmero inteiro: ");
 		scanf("%d", &n);
 		
 		resultado = somar(n);
-		printf("\n Resultado da soma do primeiro número = %d", resultado);
+		printf("\n Resultado da soma do primeiro nÃºmero = %d", resultado);
 		printf("\n %d!= %d", resultado, fat(resultado));
 		
 		
 		
-		printf("\n\n\n Digite outro número inteiro: ");
+		printf("\n\n\n Digite outro nÃºmero inteiro: ");
 		scanf("%d", &n);
 		
 		resultado = somar(n);
-		printf("\n Resultado da soma do segundo número = %d", resultado);
+		printf("\n Resultado da soma do segundo nÃºmero = %d", resultado);
 		printf("\n %d!= %d", resultado, fat(resultado));		
 		
 
